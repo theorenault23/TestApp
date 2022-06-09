@@ -1,0 +1,11 @@
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\TestApp.exe
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\appsettings.Development.json
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\appsettings.json
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\TestApp.dll
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\TestApp.deps.json
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\TestApp.runtimeconfig.json
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\TestApp.pdb
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\Microsoft.OpenApi.dll
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
