@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "akscluster-b5d4"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "akscluster-b5d4"
+  template:
+    metadata:
+      labels:
+        app: "akscluster-b5d4"
+    spec:
+      containers:
+        - name: "akscluster-b5d4"
+          image: "akstestregistrygenetec.azurecr.io/akscluster"
+          ports:
+          - containerPort: 80
