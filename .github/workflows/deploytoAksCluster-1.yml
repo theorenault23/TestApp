@@ -14,7 +14,7 @@ jobs:
     - name: Build and push image to ACR
       id: build-image
       run: |
-        docker build "$GITHUB_WORKSPACE/TestApp" -f  "TestApp/Dockerfile" -t testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }} --label dockerfile-path=TestApp/Dockerfile
+        docker build "$GITHUB_WORKSPACE" -f  "TestApp/Dockerfile" -t testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }} --label dockerfile-path=TestApp/Dockerfile
         docker push testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }}
     
     - uses: azure/k8s-set-context@v1
