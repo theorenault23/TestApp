@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: "clusterk8steststheo-ed66"
+    labels:
+        app: "clusterk8steststheo-ed66"
+spec:
+    type: LoadBalancer
+    ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+    selector:
+        app: "clusterk8steststheo-ed66"
