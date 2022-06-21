@@ -1,0 +1,50 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - uses: azure/docker-login@v1
+      with:
+        login-server: testk8sazureregistrytheo.azurecr.io
+        username: ${{ secrets.acr_testk8sazureregistrytheo_username }}
+        password: ${{ secrets.acr_testk8sazureregistrytheo_password }}
+    
+    - name: Build and push image to ACR
+      id: build-image
+      run: |
+        docker build "$GITHUB_WORKSPACE/TestApp" -f  "TestApp/Dockerfile" -t testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }} --label dockerfile-path=TestApp/Dockerfile
+        docker push testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }}
+    
+    - uses: azure/k8s-set-context@v1
+      with:
+         kubeconfig: ${{ secrets.aks_clusterk8steststheo_kubeConfig }}
+      id: login
+    
+    - name: Create namespace
+      run: |
+        namespacePresent=`kubectl get namespace | grep cluster_k8s_tests_theo_namespace | wc -l`
+        if [ $namespacePresent -eq 0 ]
+        then
+            echo `kubectl create namespace cluster_k8s_tests_theo_namespace`
+        fi
+
+    - uses: azure/k8s-create-secret@v1
+      with:
+        namespace: cluster_k8s_tests_theo_namespace
+        container-registry-url: testk8sazureregistrytheo.azurecr.io
+        container-registry-username: ${{ secrets.acr_testk8sazureregistrytheo_username }}
+        container-registry-password: ${{ secrets.acr_testk8sazureregistrytheo_password }}
+        secret-name: clusterk8stedockerauth
+       
+    - uses: azure/k8s-deploy@v1.2
+      with:
+        namespace: cluster_k8s_tests_theo_namespace
+        manifests: |
+          manifests/deployment-1.yml
+          manifests/service-1.yml
+        images: |
+          testk8sazureregistrytheo.azurecr.io/clusterk8steststheo:${{ github.sha }}
+        imagepullsecrets: |
+          clusterk8stedockerauth
