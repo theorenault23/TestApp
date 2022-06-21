@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ntIgaelsXcypk49ACV4p6DpiKDQT9DKGA3VfdvDW1/TXSrcjVCOSDhINPNOFKg7HAhfKsG5MP7dq84LAWBGduw==",
+  "dgSpecHash": "b0g+ZFwzy0PMpmIIHeWWM0UHeTaD8W9EQ7kp9+6Z4IUtsLuMqB2Iv4hcAG1Nh2yyyRKysM0KEM+EdlvicGBt6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trenault\\Source\\Repos\\TestApp\\TestApp\\TestApp.csproj",
+  "projectFilePath": "C:\\Users\\trenault\\OneDrive - Genetec Inc\\Documents\\DEV\\TestApp\\TestApp\\TestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trenault\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\trenault\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

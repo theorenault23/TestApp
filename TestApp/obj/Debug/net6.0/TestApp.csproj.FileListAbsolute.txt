@@ -25,3 +25,29 @@ C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Debug\net6.0\TestApp.dll
 C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Debug\net6.0\ref\TestApp.dll
 C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Debug\net6.0\TestApp.pdb
 C:\Users\trenault\Source\Repos\TestApp\TestApp\obj\Debug\net6.0\TestApp.genruntimeconfig.cache
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\appsettings.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\TestApp.exe
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\TestApp.deps.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\TestApp.runtimeconfig.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\TestApp.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\ref\TestApp.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\TestApp.pdb
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfo.cs
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\scopedcss\bundle\TestApp.styles.css
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.csproj.CopyComplete
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\ref\TestApp.dll
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.pdb
+C:\Users\trenault\OneDrive - Genetec Inc\Documents\DEV\TestApp\TestApp\obj\Debug\net6.0\TestApp.genruntimeconfig.cache
