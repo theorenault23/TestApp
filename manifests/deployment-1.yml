@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "clusterk8steststheo-ed66"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "clusterk8steststheo-ed66"
+  template:
+    metadata:
+      labels:
+        app: "clusterk8steststheo-ed66"
+    spec:
+      containers:
+        - name: "clusterk8steststheo-ed66"
+          image: "testk8sazureregistrytheo.azurecr.io/clusterk8steststheo"
+          ports:
+          - containerPort: 80
